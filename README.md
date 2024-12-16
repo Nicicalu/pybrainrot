@@ -42,12 +42,12 @@ Below is a table of all of the Python keywords or operators that should be repla
 
 | Python Keyword/Operator           | pybrainrot Translation |
 | --------------------------------- | ---------------------- |
-| before gta6                       | async                  |
 | gaensehosen                       | return                 |
 | yap                               | print                  |
 | rizz                              | +                      |
 | No Cap                            | True                   |
 | Cap                               | False                  |
+| before gta6                       | async                  |
 | let him cook                      | while                  |
 | not stonks                        | raise                  |
 | lock in                           | from                   |
