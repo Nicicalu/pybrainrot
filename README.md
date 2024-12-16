@@ -25,8 +25,6 @@ Implementation based on [Bython](https://github.com/mathialo/bython).
 
  * Real Python keywords that have defined pybrainrot mappings will not be allowed.
 
- * Edit your pybrainrot code with syntax highlighting with the `vscode-pybrainrot` extension.
-
 ## Code example
 ![Code Example](https://github.com/shamith09/vscode-pybrainrot/blob/main/code-example.png?raw=true)
 

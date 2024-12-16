@@ -23,38 +23,39 @@ Flags and arguments:
     args,               Arguments to script
 """
 
+
 def main():
     # Setup argument parser
-    argparser = argparse.ArgumentParser("pybrainrot", 
-        description="Pybrainrot is a python preprosessor that translates braces into indentation", 
-        formatter_class=argparse.RawTextHelpFormatter)
-    argparser.add_argument("-V", "--version", 
-        action="version", 
-        version="Pybrainrot v%s\nShamith Pasula 2024" % VERSION_NUMBER)
-    argparser.add_argument("-v", "--verbose", 
-        help="print progress",
-        action="store_true") 
-    argparser.add_argument("-c", "--compile", 
-        help="translate to python only (don't run files)",
-        action="store_true")
+    argparser = argparse.ArgumentParser("pybrainrot",
+                                        description="Pybrainrot is a python preprosessor that translates braces into indentation",
+                                        formatter_class=argparse.RawTextHelpFormatter)
+    argparser.add_argument("-V", "--version",
+                           action="version",
+                           version="Pybrainrot v%s\nNicolas Caluori 2024" % VERSION_NUMBER)
+    argparser.add_argument("-v", "--verbose",
+                           help="print progress",
+                           action="store_true")
+    argparser.add_argument("-c", "--compile",
+                           help="translate to python only (don't run files)",
+                           action="store_true")
     argparser.add_argument("-k", "--keep",
-        help="keep generated python files",
-        action="store_true")
+                           help="keep generated python files",
+                           action="store_true")
     argparser.add_argument("-2", "--python2",
-        help="use python2 instead of python3 (default)",
-        action="store_true")
+                           help="use python2 instead of python3 (default)",
+                           action="store_true")
     argparser.add_argument("-o", "--output",
-        type=str, 
-        help="specify name of output file (if -c is present)",
-        nargs=1)
+                           type=str,
+                           help="specify name of output file (if -c is present)",
+                           nargs=1)
     argparser.add_argument("input",
-        type=str, 
-        help="pybrainrot files to process",
-        nargs=1)
+                           type=str,
+                           help="pybrainrot files to process",
+                           nargs=1)
     argparser.add_argument("args",
-        type=str,
-        help="arguments to script",
-        nargs=argparse.REMAINDER)
+                           type=str,
+                           help="arguments to script",
+                           nargs=argparse.REMAINDER)
 
     # Parse arguments
     cmd_args = argparser.parse_args()
@@ -74,10 +75,9 @@ def main():
         logger.log_info("Placing files in this directory")
 
     else:
-        # Prefix with . to hide, also to avoid name conflicts. 
+        # Prefix with . to hide, also to avoid name conflicts.
         path_prefix = "python_"
         logger.log_info("Placing files in this directory, but prefixing them with python_*")
-
 
     # List of all files to translate from pybrainrot to python
     parse_que = []
@@ -149,10 +149,10 @@ def main():
 
     # Run file
     if cmd_args.python2:
-        python_command = "python2"
+        python_command = "python"
 
     else:
-        python_command = "python3"
+        python_command = "python"
 
     filename = os.path.basename(cmd_args.input[0])
 
@@ -184,6 +184,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
