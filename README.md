@@ -1,19 +1,9 @@
 # Pybrainrot
-Python with rizz. Be a sigma and mog your skibidi toilet opps before they crashout. This language can only be used in Ohio.
+Python for brainrotted people.
 
 Pybrainrot is a Python preprosessor which translates regular Python code into brainrot by replacing certain keywords, operators, and built in functions with iPad kid vocabulary.
 
-Implementation based on [Bython](https://github.com/mathialo/bython).
-
-## Content of README:
-- [Pybrainrot](#pybrainrot)
-  - [Content of README:](#content-of-readme)
-  - [Key features](#key-features)
-  - [Code example](#code-example)
-  - [Installation](#installation)
-  - [Keyword mappings](#keyword-mappings)
-  - [Quick intro](#quick-intro)
-
+*Implementation based on [PyGyat](https://github.com/shamith09/pygyat).*
 
 ## Key features
 
@@ -26,7 +16,7 @@ Implementation based on [Bython](https://github.com/mathialo/bython).
  * Real Python keywords that have defined pybrainrot mappings will not be allowed.
 
 ## Code example
-![Code Example](https://github.com/shamith09/vscode-pybrainrot/blob/main/code-example.png?raw=true)
+![Code Example](./docs/example.png)
 
 ## Installation
 
@@ -46,11 +36,7 @@ To uninstall, simply run
 $ pip3 uninstall pybrainrot
 ```
 
-which will undo all the changes.
-
-To install the `vscode-pybrainrot` extension for Visual Studio Code, visit:
-
-[https://marketplace.visualstudio.com/items?itemName=shamith-pasula.vscode-pybrainrot](https://marketplace.visualstudio.com/items?itemName=shamith-pasula.vscode-pybrainrot)
+which will undo the installation.
 
 ## Keyword mappings
 
