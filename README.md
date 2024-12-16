@@ -5,7 +5,7 @@ Pybrainrot is a Python preprosessor which translates regular Python code into br
 
 *Implementation based on [PyGyat](https://github.com/shamith09/pygyat).*
 
-## Key features
+## Features
 
  * Write Python using brainrot terms instead.
 
@@ -20,7 +20,7 @@ Pybrainrot is a Python preprosessor which translates regular Python code into br
 
 ## Installation
 
-If you for some reason want to install it from the git repository you can use `git clone` and do a local install instead:
+To install it you can use `git clone` and do a local install:
 
 ```
 $ git clone https://github.com/nicicalu/pybrainrot.git
@@ -28,9 +28,7 @@ $ cd pybrainrot
 $ pip3 install .
 ```
 
-The git version is sometimes a tiny bit ahead of the PyPI version, but not significantly.
-
-To uninstall, simply run 
+To uninstall, run
 
 ```
 $ pip3 uninstall pybrainrot
@@ -42,57 +40,47 @@ which will undo the installation.
 
 Below is a table of all of the Python keywords or operators that should be replaced by their corresponding pybrainrot keyword. Python keywords that don't have a mapping or aren't in this table can just be used as is. If you want to request that a new mapping be made, please submit a pull request.
 
-| Python Keyword/Operator | pybrainrot Translation                 |
-| ----------------------- | -------------------------------------- |
-| try/except/finally      | hawk/tuah/spit on that thang           |
-| return                  | its giving                             |
-| -                       | fanum tax                              |
-| +                       | rizz                                   |
-| print                   | yap                                    |
-| True                    | Aura                                   |
-| False                   | Cooked                                 |
-| def                     | bop                                    |
-| while                   | let him cook                           |
-| import                  | glaze                                  |
-| from                    | lock in                                |
-| class                   | skibidi                                |
-| if/elif/else            | chat is this real/yo chat/only in ohio |
-| for                     | mewing                                 |
-| break                   | just put the fries in the bag bro      |
-| continue                | edge                                   |
-| assert                  | sus                                    |
-| raise                   | crashout                               |
-| in                      | diddy                                  |
-| is                      |                                        |
-| and                     |                                        |
-| or                      |                                        |
-| not                     |                                        |
-| with                    | pookie                                 |
-| as                      | ahh                                    |
-| global                  | GOAT                                   |
-| nonlocal                | motion                                 |
-| del                     | delulu                                 |
-| yield                   | pause                                  |
-| yield from              | pause no diddy                         |
-| None                    | NPC                                    |
-| pass                    | pluh                                   |
-| self                    | unc                                    |
-| range                   | huzz                                   |
-| >                       | sigma                                  |
-| <                       | beta                                   |
-| ≥                       | sigma twin                             |
-| ≤                       | beta twin                              |
-| ==                      | twin                                   |
-| =                       |                                        |
-| async                   |                                        |
-| await                   |                                        |
-| open                    | mog                                    |
-| read                    |                                        |
-| write                   |                                        |
-| close                   | demure                                 |
-| list                    |                                        |
-| set                     |                                        |
-| dict                    |                                        |
+| Python Keyword/Operator           | pybrainrot Translation |
+| --------------------------------- | ---------------------- |
+| before gta6                       | async                  |
+| gaensehosen                       | return                 |
+| yap                               | print                  |
+| rizz                              | +                      |
+| No Cap                            | True                   |
+| Cap                               | False                  |
+| let him cook                      | while                  |
+| not stonks                        | raise                  |
+| lock in                           | from                   |
+| calc is short for calculator      | math                   |
+| chat is this real                 | if                     |
+| yo chat                           | elif                   |
+| only in ohio                      | else                   |
+| just put the fries in the bag bro | break                  |
+| hawk                              | try                    |
+| tuah                              | except                 |
+| spit on that thang                | finally                |
+| minus aura                        | -                      |
+| bop                               | def                    |
+| get in there                      | import                 |
+| skibidi                           | class                  |
+| flex                              | for                    |
+| edge                              | continue               |
+| sus                               | assert                 |
+| pookie                            | with                   |
+| ahh                               | as                     |
+| GOAT                              | global                 |
+| delulu                            | del                    |
+| NPC                               | None                   |
+| unc                               | self                   |
+| huzz                              | range                  |
+| sigma twin                        | >=                     |
+| beta twin                         | <=                     |
+| twin                              | ==                     |
+| sigma                             | >                      |
+| beta                              | <                      |
+| diddy                             | in                     |
+| pluh                              | pass                   |
+
 
 ## Quick intro
 
@@ -127,10 +115,4 @@ This will create a pybrainrot file called `test.brainrot`. A full explanation of
 
 ```
 $ py2brainrot -h
-```
-
-or by consulting the man page:
-
-```
-$ man py2brainrot
 ```
