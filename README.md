@@ -81,6 +81,9 @@ Below is a table of all of the Python keywords or operators that should be repla
 | beta                                               | <                  |
 | diddy                                              | in                 |
 | pluh                                               | pass               |
+| yeet                                               | match              |
+| skrrr                                              | case               |
+| let me in                                          | input              |
 
 
 ## Quick intro

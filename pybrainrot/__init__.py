@@ -39,5 +39,8 @@ BRAINROT2PY_MAPPINGS = {
     "sigma": ">",
     "beta": "<",
     "diddy": "in",
-    "pluh": "pass",
+    "smash or pass": "pass",
+    "yeet": "match",
+    "skrrr": "case",
+    "let me in": "input",
 }
