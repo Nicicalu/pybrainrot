@@ -1,0 +1,134 @@
+{
+	"If-Else Block": {
+	  "prefix": "if",
+	  "body": [
+		"chat is this real $1:",
+		"\t$2",
+		"only in ohio:",
+		"\t$3"
+	  ],
+	  "description": "Creates an if-else block with tab stops"
+	},
+	"Else If Block": {
+	  "prefix": "elif",
+	  "body": [
+		"yo chat $1:",
+		"\t$2"
+	  ],
+	  "description": "Creates an elif block with tab stops"
+	},
+	"Try-Catch-Finally Block": {
+	  "prefix": "try",
+	  "body": [
+		"hawk:",
+		"\t$1",
+		"tuah $2:",
+		"\t$3",
+		"spit on that thang:",
+		"\t$4"
+	  ],
+	  "description": "Creates a try-except-finally block with tab stops"
+	},
+	"For Loop": {
+	  "prefix": "for",
+	  "body": [
+		"just put the fries in the bag bro $1:",
+		"\t$2"
+	  ],
+	  "description": "Creates a for loop with tab stops"
+	},
+	"While Loop": {
+	  "prefix": "while",
+	  "body": [
+		"let him cook $1:",
+		"\t$2"
+	  ],
+	  "description": "Creates a while loop with tab stops"
+	},
+	"Function Definition": {
+	  "prefix": "def",
+	  "body": [
+		"just using slang $1($2):",
+		"\t$3"
+	  ],
+	  "description": "Creates a function definition with tab stops"
+	},
+	"Class Definition": {
+	  "prefix": "class",
+	  "body": [
+		"skibidi $1:",
+		"\t$2"
+	  ],
+	  "description": "Creates a class definition with tab stops"
+	},
+	"Import Statement": {
+	  "prefix": "import",
+	  "body": [
+		"get in there $1"
+	  ],
+	  "description": "Creates an import statement with a placeholder"
+	},
+	"Assert Statement": {
+	  "prefix": "assert",
+	  "body": [
+		"sus $1"
+	  ],
+	  "description": "Creates an assert statement with a placeholder"
+	},
+	"With Statement": {
+	  "prefix": "with",
+	  "body": [
+		"pookie $1 $2:",
+		"\t$3"
+	  ],
+	  "description": "Creates a with statement with tab stops"
+	},
+	"Break Statement": {
+	  "prefix": "break",
+	  "body": ["ich muss raus"],
+	  "description": "Creates a break statement"
+	},
+	"Continue Statement": {
+	  "prefix": "continue",
+	  "body": ["edge"],
+	  "description": "Creates a continue statement"
+	},
+	"Raise Statement": {
+	  "prefix": "raise",
+	  "body": [
+		"not stonks $1"
+	  ],
+	  "description": "Creates a raise statement with a placeholder"
+	},
+	"Greater Than or Equal": {
+	  "prefix": ">=",
+	  "body": ["sigma twin"],
+	  "description": "Replaces '>=' with 'sigma twin'"
+	},
+	"Less Than or Equal": {
+	  "prefix": "<=",
+	  "body": ["beta twin"],
+	  "description": "Replaces '<=' with 'beta twin'"
+	},
+	"Equals": {
+	  "prefix": "==",
+	  "body": ["twin"],
+	  "description": "Replaces '==' with 'twin'"
+	},
+	"Greater Than": {
+	  "prefix": ">",
+	  "body": ["sigma"],
+	  "description": "Replaces '>' with 'sigma'"
+	},
+	"Less Than": {
+	  "prefix": "<",
+	  "body": ["beta"],
+	  "description": "Replaces '<' with 'beta'"
+	},
+	"In Operator": {
+	  "prefix": "in",
+	  "body": ["diddy"],
+	  "description": "Replaces 'in' with 'diddy'"
+	}
+  }
+  
