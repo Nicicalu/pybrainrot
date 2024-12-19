@@ -11,7 +11,7 @@ BRAINROT2PY_MAPPINGS = {
     "not\s+stonks": "raise",
     "lock\s+in": "from",
     "straight\s+to\s+jail": "exit",
-    "calc\s+is\s+short\s+for\s+calculator": "math",
+    "calc\s+is\s+short\s+for\s+calculator\s+i\s+am\s+just\s+using\s+slang": "math",
     "chat\s+is\s+this\s+real": "if",
     "yo\s+chat": "elif",
     "only\s+in\s+ohio": "else",

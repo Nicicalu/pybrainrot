@@ -40,47 +40,47 @@ which will undo the installation.
 
 Below is a table of all of the Python keywords or operators that should be replaced by their corresponding pybrainrot keyword. Python keywords that don't have a mapping or aren't in this table can just be used as is. If you want to request that a new mapping be made, please submit a pull request.
 
-| Python Keyword/Operator           | pybrainrot Translation |
-| --------------------------------- | ---------------------- |
-| before gta6                       | async                  |
-| zitat ende gaensehosen            | return                 |
-| yap                               | print                  |
-| rizz                              | +                      |
-| no cap                            | True                   |
-| cap                               | False                  |
-| let him cook                      | while                  |
-| not stonks                        | raise                  |
-| lock in                           | from                   |
-| straight to jail                  | exit                   |
-| calc is short for calculator      | math                   |
-| chat is this real                 | if                     |
-| yo chat                           | elif                   |
-| only in ohio                      | else                   |
-| ich muss raus                     | break                  |
-| hawk                              | try                    |
-| tuah                              | except                 |
-| spit on that thang                | finally                |
-| minus aura                        | -                      |
-| just using slang                  | def                    |
-| get in there                      | import                 |
-| skibidi                           | class                  |
-| just put the fries in the bag bro | for                    |
-| edge                              | continue               |
-| sus                               | assert                 |
-| pookie                            | with                   |
-| ass                               | as                     |
-| GOAT                              | global                 |
-| hans get se flammenwerfer         | del                    |
-| NPC                               | None                   |
-| unc                               | self                   |
-| huzz                              | range                  |
-| sigma twin                        | >=                     |
-| beta twin                         | <=                     |
-| twin                              | ==                     |
-| sigma                             | >                      |
-| beta                              | <                      |
-| diddy                             | in                     |
-| pluh                              | pass                   |
+| Python Keyword/Operator                            | pybrainrot Translation |
+| -------------------------------------------------- | ---------------------- |
+| before gta6                                        | async                  |
+| zitat ende gaensehosen                             | return                 |
+| yap                                                | print                  |
+| rizz                                               | +                      |
+| no cap                                             | True                   |
+| cap                                                | False                  |
+| let him cook                                       | while                  |
+| not stonks                                         | raise                  |
+| lock in                                            | from                   |
+| straight to jail                                   | exit                   |
+| calc is short for calculator i am just using slang | math                   |
+| chat is this real                                  | if                     |
+| yo chat                                            | elif                   |
+| only in ohio                                       | else                   |
+| ich muss raus                                      | break                  |
+| hawk                                               | try                    |
+| tuah                                               | except                 |
+| spit on that thang                                 | finally                |
+| minus aura                                         | -                      |
+| just using slang                                   | def                    |
+| get in there                                       | import                 |
+| skibidi                                            | class                  |
+| just put the fries in the bag bro                  | for                    |
+| edge                                               | continue               |
+| sus                                                | assert                 |
+| pookie                                             | with                   |
+| ass                                                | as                     |
+| GOAT                                               | global                 |
+| hans get se flammenwerfer                          | del                    |
+| NPC                                                | None                   |
+| unc                                                | self                   |
+| huzz                                               | range                  |
+| sigma twin                                         | >=                     |
+| beta twin                                          | <=                     |
+| twin                                               | ==                     |
+| sigma                                              | >                      |
+| beta                                               | <                      |
+| diddy                                              | in                     |
+| pluh                                               | pass                   |
 
 
 ## Quick intro
