@@ -42,34 +42,35 @@ Below is a table of all of the Python keywords or operators that should be repla
 
 | Python Keyword/Operator           | pybrainrot Translation |
 | --------------------------------- | ---------------------- |
-| gaensehosen                       | return                 |
+| before gta6                       | async                  |
+| zitat ende gaensehosen            | return                 |
 | yap                               | print                  |
 | rizz                              | +                      |
-| No Cap                            | True                   |
-| Cap                               | False                  |
-| before gta6                       | async                  |
+| no cap                            | True                   |
+| cap                               | False                  |
 | let him cook                      | while                  |
 | not stonks                        | raise                  |
 | lock in                           | from                   |
+| straight to jail                  | exit                   |
 | calc is short for calculator      | math                   |
 | chat is this real                 | if                     |
 | yo chat                           | elif                   |
 | only in ohio                      | else                   |
-| just put the fries in the bag bro | break                  |
+| ich muss raus                     | break                  |
 | hawk                              | try                    |
 | tuah                              | except                 |
 | spit on that thang                | finally                |
 | minus aura                        | -                      |
-| bop                               | def                    |
+| just using slang                  | def                    |
 | get in there                      | import                 |
 | skibidi                           | class                  |
-| flex                              | for                    |
+| just put the fries in the bag bro | for                    |
 | edge                              | continue               |
 | sus                               | assert                 |
 | pookie                            | with                   |
-| ahh                               | as                     |
+| ass                               | as                     |
 | GOAT                              | global                 |
-| delulu                            | del                    |
+| hans get se flammenwerfer         | del                    |
 | NPC                               | None                   |
 | unc                               | self                   |
 | huzz                              | range                  |
