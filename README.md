@@ -1,4 +1,4 @@
-# Pybrainrot
+# Pybrainrot (BrainrOST)
 Python for brainrotted people.
 
 Pybrainrot is a Python preprosessor which translates regular Python code into brainrot by replacing certain keywords, operators, and built in functions with iPad kid vocabulary.
